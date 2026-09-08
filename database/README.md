@@ -222,7 +222,7 @@ Entity Relationship Diagram
 
 The following ER diagram shows the tables, primary keys, foreign keys and relationships of the NoEtra database.
 
-![NoEtra Database ER Diagram](![alt text](image.png))
+![NoEtra Database ER Diagram](ERDiagram.pnj.jpeg)
 ## Primary Keys and Foreign Keys
 
 ### Primary Keys (PK)
