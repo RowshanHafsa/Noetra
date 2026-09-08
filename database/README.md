@@ -2,10 +2,6 @@
 
 This folder contains the database design and documentation for **NoEtra**.
 
-NoEtra helps users search topics, generate roadmaps, access resources, take quizzes, save results, track progress, write notes, bookmark resources, manage interests, reset passwords, and participate in discussions.
-
----
-
 ## Database Overview
 
 The NoEtra database uses a relational database model.
@@ -30,8 +26,6 @@ It stores information about:
 - Discussions
 - Community Discussions
 
----
-
 ## Database Technology
 
 - MySQL / MariaDB
@@ -40,8 +34,6 @@ It stores information about:
 - Foreign Keys (FK)
 - One-to-Many (1:N)
 - Many-to-Many (M:N)
-
----
 
 ## Database Structure
 
@@ -216,8 +208,6 @@ It stores information about:
 | title | Discussion title |
 | content | Discussion content |
 
----
-
 Entity Relationship Diagram
 
 The following ER diagram shows the tables, primary keys, foreign keys and relationships of the NoEtra database.
@@ -271,8 +261,6 @@ The following ER diagram shows the tables, primary keys, foreign keys and relati
 - `discussions.result_id → saved_results.result_id`
 - `community_discussions.user_id → users.user_id`
 
----
-
 ## Table Relationships
 
 | Parent | Child | Relationship |
@@ -300,8 +288,6 @@ The following ER diagram shows the tables, primary keys, foreign keys and relati
 | saved_results | discussions | 1:N |
 | users | community_discussions | 1:N |
 
----
-
 ## Features Supported
 
 - User Registration & Login
@@ -321,9 +307,5 @@ The following ER diagram shows the tables, primary keys, foreign keys and relati
 - Quiz Results
 - Community Discussions
 - Admin Management
-
----
-
-
 
 [def]: Erdiagram.png.jpeg
